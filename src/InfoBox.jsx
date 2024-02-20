@@ -8,10 +8,10 @@ import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import BeachAccessIcon from '@mui/icons-material/BeachAccess';
 
 export default function InfoBox({ weatherInfo }){
-    const INIT_URL = "haze.jpg";
-    const HOT_URL = "sunny.jpg";
-    const COLD_URL = "cold.jpg";
-    const RAIN_URL = "rain.jpg";
+    const INIT_URL = "src/images/haze.jpg";
+    const HOT_URL = "src/images/sunny.jpg";
+    const COLD_URL ="src/images/cold.jpg";
+    const RAIN_URL = "src/images/rain.jpg";
     return (
         <div className="infobox">
         <div className="cardContainer">
